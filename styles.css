@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /*Colors*/
+  --light-purple: hsl(254, 88%, 90%);
+  --dark-purple:  hsl(256, 67%, 59%);
+  --light-yellow: hsl(31, 66%, 93%);
+  --dark-yellow: hsl(39, 100%, 71%);
+  --black: hsl(0, 0%, 7%);
+  --white: hsl(0, 0%, 100%);
+
+  /*Font*/
+  --body-font-size: 1.125rem; /*18px*/
+  --font-fam: "DM Sans", sans-serif;
+  --small-weight: 400;
+  --big-weight: 500;
+
+}
+
+/*Author Stuff*/
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
