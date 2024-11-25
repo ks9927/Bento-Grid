@@ -24,22 +24,26 @@
 body {
   font-family: var(--font-fam);
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
   grid-template-areas: 
   "one two two three"
   "four five six three"
   "four seven eight eight";
-  place-items: center;
+ 
 }
 
 .card {
- width: 100%;
  border-radius: 10px;
 }
+
 .box-1 {
   grid-area: one;
   background-color: var(--light-yellow);
