@@ -52,6 +52,7 @@ body {
   grid-area: one;
   background-color: var(--light-yellow);
   padding: 50px;
+  height: 42rem;
 }
 
 .box-1 h1 {
@@ -59,11 +60,13 @@ body {
   font-size: 4rem;
   text-align: left;
   line-height: 1;
-  margin-bottom: 3rem;
+  margin-top: 3rem;
 }
 
 .box-1 img {
   margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 2rem;
 }
 
 .box-1 .i {
