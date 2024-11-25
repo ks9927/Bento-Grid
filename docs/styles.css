@@ -44,15 +44,32 @@ body {
 
 .card {
  border-radius: 10px;
- text-align: center;
+ font-size: var(--body-font-size);
 }
 
 
 .box-1 {
   grid-area: one;
   background-color: var(--light-yellow);
+  padding: 50px;
 }
 
+.box-1 h1 {
+  font-weight: var(--big-weight);
+  font-size: 4rem;
+  text-align: left;
+  line-height: 1;
+  margin-bottom: 3rem;
+}
+
+.box-1 img {
+  margin-left: 1rem;
+}
+
+.box-1 .i {
+  color: var(--dark-purple);
+  font-style: italic;
+}
 .box-2 {
   grid-area: two;
   background-color: var(--dark-purple);
@@ -97,6 +114,7 @@ body {
 
 
 
-/*Author Stuff*/
+/*Author Stuff
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+*/
