@@ -21,6 +21,63 @@
 
 }
 
+body {
+  font-family: var(--font-fam);
+  height: 100vh;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: 
+  "one two two three"
+  "four five six three"
+  "four seven eight eight";
+  height: 100vh;
+  place-items: center;
+}
+
+.box-1 {
+  grid-area: one;
+}
+
+.box-2 {
+  grid-area: two;
+}
+
+.box-3 {
+  grid-area: three;
+}
+
+.box-4 {
+  grid-area: four;
+}
+
+.box-5 {
+  grid-area: five;
+}
+
+.box-6 {
+  grid-area: six;
+}
+
+.box-7 {
+  grid-area: seven;
+}
+
+.box-8 {
+  grid-area: eight;
+}
+
+
+
+
+
+
+
+
+
+
 /*Author Stuff*/
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
