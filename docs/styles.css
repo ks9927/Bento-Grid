@@ -33,10 +33,13 @@ body {
   "one two two three"
   "four five six three"
   "four seven eight eight";
-  height: 100vh;
   place-items: center;
 }
 
+.card {
+ width: 100%;
+ border-radius: 10px;
+}
 .box-1 {
   grid-area: one;
   background-color: var(--light-yellow);
