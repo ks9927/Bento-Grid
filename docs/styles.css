@@ -27,22 +27,26 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: whitesmoke;
 }
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: auto;
   grid-template-areas: 
   "one two two three"
+  "one five six three"
   "four five six three"
   "four seven eight eight";
- 
+  gap: 3rem;
+  height: 50%;
+  width: 50%;
 }
 
 .card {
  border-radius: 10px;
+ text-align: center;
 }
+
 
 .box-1 {
   grid-area: one;
