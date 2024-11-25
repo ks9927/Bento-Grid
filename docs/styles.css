@@ -39,34 +39,42 @@ body {
 
 .box-1 {
   grid-area: one;
+  background-color: var(--light-yellow);
 }
 
 .box-2 {
   grid-area: two;
+  background-color: var(--dark-purple);
 }
 
 .box-3 {
   grid-area: three;
+  background-color: var(--light-purple);
 }
 
 .box-4 {
   grid-area: four;
+  background-color: var(--dark-yellow);
 }
 
 .box-5 {
   grid-area: five;
+  background-color: var(--white);
 }
 
 .box-6 {
   grid-area: six;
+  background-color: var(--dark-yellow);
 }
 
 .box-7 {
   grid-area: seven;
+  background-color: var(--white);
 }
 
 .box-8 {
   grid-area: eight;
+  background-color: var(--dark-purple);
 }
 
 
