@@ -220,7 +220,13 @@ body {
 .box-7 {
   grid-area: seven;
   background-color: var(--white);
+  padding: 50px;
 }
+
+.box-7 h1 {
+  font-size: 5rem;
+}
+
 
 .box-8 {
   grid-area: eight;
