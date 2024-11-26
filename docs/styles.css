@@ -150,7 +150,25 @@ body {
 .box-4 {
   grid-area: four;
   background-color: var(--dark-yellow);
+  height: 60rem;
+  padding: 50px;
 }
+
+.box-4 h1 {
+  font-size: 5rem;
+  font-weight: var(--big-weight);
+  margin-top: 2rem;
+  line-height: 1;
+}
+
+.box-4 img {
+  margin-top: 7rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 
 .box-5 {
   grid-area: five;
