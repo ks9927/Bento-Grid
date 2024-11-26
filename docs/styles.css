@@ -173,11 +173,30 @@ body {
 .box-5 {
   grid-area: five;
   background-color: var(--white);
+  height: 45rem;
+  width: 45rem;
+  padding: 40px;
 }
+
+.box-5 img {
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.box-5 h1 {
+  font-size: 5rem;
+  text-align: left;
+  font-weight: var(--big-weight);
+  margin-top: 5rem;
+  margin-left: 2rem;
+}
+
 
 .box-6 {
   grid-area: six;
   background-color: var(--dark-yellow);
+  height: 45rem;
+  width: 45rem;
 }
 
 .box-7 {
