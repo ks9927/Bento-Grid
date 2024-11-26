@@ -52,7 +52,7 @@ body {
   grid-area: one;
   background-color: var(--light-yellow);
   padding: 50px;
-  height: 42rem;
+  height: 60rem;
 }
 
 .box-1 h1 {
@@ -112,10 +112,40 @@ body {
 }
 
 
+
+
 .box-3 {
   grid-area: three;
   background-color: var(--light-purple);
+  height: 95rem;
+  width: 40rem;
 }
+
+.box-3 h1 {
+  font-size: 5rem;
+  font-weight: var(--big-weight);
+  margin-top: 7rem;
+  margin-left: 4rem;
+}
+
+.box-3 img {
+  margin-left: 4rem;
+  margin-top: 2rem;
+  width: 140%;
+  clip-path: inset(0 36% 0 0);
+  object-fit: cover;
+}
+
+.box-3 p {
+  font-size: 3rem;
+  margin-top: 2rem;
+  margin-left: 4rem;
+  font-weight: var(--small-weight);
+}
+
+
+
+
 
 .box-4 {
   grid-area: four;
