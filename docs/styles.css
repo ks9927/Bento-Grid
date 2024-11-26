@@ -73,10 +73,44 @@ body {
   color: var(--dark-purple);
   font-style: italic;
 }
+
+
 .box-2 {
   grid-area: two;
   background-color: var(--dark-purple);
+  padding: 50px;
+  color: var(--white);
 }
+
+.box-2 h1 {
+  font-size: 5.5rem;
+  font-weight: var(--big-weight);
+  text-align: center;
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.box-2 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box-2 p {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 1rem;
+
+}
+
+.box-2 .i {
+  font-style: italic;
+}
+
+.box-2 .y {
+  color: var(--dark-yellow);
+}
+
 
 .box-3 {
   grid-area: three;
