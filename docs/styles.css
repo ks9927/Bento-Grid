@@ -24,9 +24,6 @@
 body {
   font-family: var(--font-fam);
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: whitesmoke;
 }
 
@@ -51,7 +48,7 @@ body {
   grid-area: one;
   background-color: var(--light-yellow);
   padding: 50px;
-  height: 60rem;
+  
 }
 
 .box-1 h1 {
@@ -77,7 +74,6 @@ body {
 .box-2 {
   grid-area: two;
   background-color: var(--dark-purple);
-  padding: 50px;
   color: var(--white);
 }
 
@@ -116,7 +112,6 @@ body {
 .box-3 {
   grid-area: three;
   background-color: var(--light-purple);
-  height: 95rem;
   width: 40rem;
 }
 
@@ -149,7 +144,6 @@ body {
 .box-4 {
   grid-area: four;
   background-color: var(--dark-yellow);
-  height: 60rem;
   padding: 50px;
 }
 
@@ -172,8 +166,6 @@ body {
 .box-5 {
   grid-area: five;
   background-color: var(--white);
-  height: 45rem;
-  width: 45rem;
   padding: 40px;
 }
 
@@ -194,8 +186,6 @@ body {
 .box-6 {
   grid-area: six;
   background-color: var(--dark-yellow);
-  height: 45rem;
-  width: 45rem;
   padding: 40px;
 }
 
