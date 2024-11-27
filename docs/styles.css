@@ -225,7 +225,17 @@ body {
 
 .box-7 h1 {
   font-size: 5rem;
+  text-align: left;
+  margin-bottom: 1rem;
 }
+
+.box-7 p {
+  font-size: 2.5rem;
+  margin-bottom: 4rem;
+}
+
+
+
 
 
 .box-8 {
