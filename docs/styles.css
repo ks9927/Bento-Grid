@@ -39,7 +39,7 @@ body {
 }
 
 .card {
- border-radius: 10px;
+ border-radius: 15px;
  font-size: var(--body-font-size);
 }
 
@@ -48,7 +48,6 @@ body {
   grid-area: one;
   background-color: var(--light-yellow);
   padding: 50px;
-  
 }
 
 .box-1 h1 {
@@ -112,7 +111,6 @@ body {
 .box-3 {
   grid-area: three;
   background-color: var(--light-purple);
-  width: 40rem;
 }
 
 .box-3 h1 {
@@ -144,7 +142,6 @@ body {
 .box-4 {
   grid-area: four;
   background-color: var(--dark-yellow);
-  padding: 50px;
 }
 
 .box-4 h1 {
@@ -166,7 +163,6 @@ body {
 .box-5 {
   grid-area: five;
   background-color: var(--white);
-  padding: 40px;
 }
 
 .box-5 img {
@@ -186,7 +182,6 @@ body {
 .box-6 {
   grid-area: six;
   background-color: var(--dark-yellow);
-  padding: 40px;
 }
 
 .box-6 h1 {
@@ -209,7 +204,6 @@ body {
 .box-7 {
   grid-area: seven;
   background-color: var(--white);
-  padding: 50px;
 }
 
 .box-7 h1 {
@@ -230,8 +224,6 @@ body {
 .box-8 {
   grid-area: eight;
   background-color: var(--dark-purple);
-  padding: 50px;
-  width: 82rem;
 }
 
 .box-8 img {
