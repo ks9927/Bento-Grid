@@ -241,9 +241,23 @@ body {
 .box-8 {
   grid-area: eight;
   background-color: var(--dark-purple);
+  padding: 50px;
+  width: 82rem;
 }
 
+.box-8 img {
+  margin-left: 2rem;
+  float: left;
+}
 
+.box-8 h1 {
+  font-size: 5.5rem;
+  color: var(--white);
+  font-weight: var(--big-weight);
+  margin-top: 3rem;
+  text-align: left;
+  margin-left: 35rem;
+}
 
 
 
